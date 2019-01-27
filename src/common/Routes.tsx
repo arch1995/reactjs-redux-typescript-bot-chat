@@ -8,11 +8,9 @@ const Routes  = [
 ];
 
 const MainRoutes = () => (
-  <div>
-    <Switch>
-      {Routes}
-    </Switch>
-  </div>
+  <Switch>
+    {Routes}
+  </Switch>
 );
 
 export default MainRoutes;

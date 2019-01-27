@@ -1,5 +1,5 @@
-import { UserState } from './UserState';
+import { ChatBotState } from './ChatBotState';
 
 export interface StoreState {
-  userReducer: UserState
+  chatBotReducer: ChatBotState
 }

@@ -15,8 +15,5 @@ body {
   right: 0;
   margin: 0;
   padding: 0;
-}
-.DateInput_1{
-  width: 50px !important; 
-
+  background: #161616;
 }
