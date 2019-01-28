@@ -42,12 +42,10 @@ export default class ChatBotContainer extends Component<Props, State> {
   }
 
   setActiveTab = (tabKey: string) => {
-    console.log("NEw_TAB_key", tabKey)
     this.setState({ activeTab: tabKey });
   }
 
   addChat = async(newChat: Chat) => {
-    console.log("newChat", newChat);
     const { tabs } = this.props;
     
     this.setState({ loading: true });
