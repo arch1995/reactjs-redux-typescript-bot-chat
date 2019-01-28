@@ -70,7 +70,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "prod:build": "yarn run build && firebase deploy"
   },
   "devDependencies": {
     "@types/jest": "^23.3.12",

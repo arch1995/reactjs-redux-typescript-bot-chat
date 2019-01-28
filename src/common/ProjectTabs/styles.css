@@ -16,6 +16,8 @@
   background: transparent !important;
   border-radius: 0px !important;
   padding: 13px 10px !important;
+  border-color: transparent !important;
+  border: 0px !important;
 }
 .project_title_text {
   width: 40px;
